@@ -123,8 +123,8 @@
     position: absolute;
     right:0px;
     top:-25px;
-    /* animation: delay-img 25s; */
-    display: block;
+    animation: delay-img 25s;
+    display: none;
    
 }
 
