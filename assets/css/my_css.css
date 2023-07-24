@@ -35,10 +35,7 @@
 }
 
 @media (max-width:991px){
-
-
      .pb_navbar .navbar-nav {
-
          padding:25px 0;
          text-align: center;
      }
@@ -46,23 +43,18 @@
      .pb_navbar.scrolled.pb_scrolled-light ul li a {
         font-weight: bold!important;
     }
-
 }
 
-
 @media (max-width:600px){
-
     .ion-navicon:before{
         margin-right: 25px;
         padding: 5px 8px;
         width: 50px;
         height: 50px;
-   
     }
 }
 
 @media (max-width:500px){
-	
 	.dark {
     width: 125px!important;
     }
@@ -125,7 +117,6 @@
     top:-25px;
     animation: delay-img 25s;
     display: none;
-   
 }
 
 @keyframes delay-img {
@@ -143,21 +134,16 @@
 
   }
 @media (max-width:325px){
-
     #output_2, #output_2_en{
     margin-top: -50px;
     font-size: 1rem;
     line-height: 1.3;
     }
-
 }
 
-
 @media(max-width:500px){
-
     .buttons-box{
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
 }
 
@@ -203,15 +189,10 @@
 
     100%{
     color:green;
-   }
-    
+   } 
 }
 
-
-
-
 /* ABOUT*/
-
 .text-about{
     position: relative;
     padding:50px 100px;
@@ -273,6 +254,7 @@
         padding:40px 20px;
         margin: 15px 15px;
     }
+}
 
     @media (max-width:580px){
         .text-about-title h2{
@@ -286,7 +268,6 @@
         width: 85%;
     }
 }
-}
 
 
 /* GALLERY */
@@ -294,13 +275,11 @@
     .img.mfp-img{
         width: 75%;
     }
-
 }
 
 
 
 /* SECTION HOME */
-
 .section-home-bg{
     background-image:url(../images/restaurant/nortada_6_opacity.png);
     background-size: cover;
@@ -438,8 +417,6 @@
     margin-bottom: 30px;
   }
   
- 
-
   @media screen and (max-width: 950px){
     .contact-section{
       flex-direction: column;
@@ -459,7 +436,6 @@
   }
   
   /*css for alert messages*/
-
   .contact-section-body{
         min-height: 50vh;
         background-image:url(../images/restaurant/nortada_9_opacity.png);
@@ -539,7 +515,6 @@
     }
 
 }
-
 
 /* FOOTER */
 
@@ -743,13 +718,15 @@
     margin-top: 15px;
 }
 
-@media (max-width:1025px){
+.menu_sub_title {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
 
-    .menu_title_top{
-    
-    }
 
-
+.menu_title_right{
+    margin-top: -80px;   
 }
 
 @media (max-width:991px){
@@ -794,7 +771,6 @@
 
 .menu_title_right{
     margin-top: -110px;   
-
 }
 
 .img_menu img{
